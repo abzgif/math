@@ -7,5 +7,18 @@ ___
   Do[sum = sum + 1\/\(n!\)*\(3^n - 1\)\/\(3 - 
     1\), {n, 1, 50}]\[IndentingNewLine]
   sum // N\)
-
+```
+Out:8.68363
+```
+    \!\(\(sum = 0;\)\[IndentingNewLine]
+  Do[sum = sum + 1\/\(n!\)*\(3^n - 1\)\/\(3 - 
+    1\), {n, 1, 50}]\[IndentingNewLine]
+  sum // N\)
+```
+Out:8.68363
+```
+    \!\(While[n ≤ 50, sum = sum + 1\/\(n!\)*\(3^n - 
+      1\)\/\(3 - 1\); n = n + 1]\[IndentingNewLine]
+  sum // N\)
+```
 Out:8.68363
