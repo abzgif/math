@@ -35,6 +35,6 @@ result=Intersection[t1, t2]
 ```
 Out:{2, 3, 5, 13, 89, 233}
 ```
-    Length [result]
+Length [result]
 ```
 Out:6
